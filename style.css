@@ -1,0 +1,71 @@
+/* common css styles */
+
+body {
+	background-color: #000000;
+	margin:0px;
+	padding:0px;
+}
+
+body, div {
+	font-family: verdana, courier;
+	font-size:14px;
+	color:#FFFFFF;
+}
+
+a:link, a:visited, a:hover, a:active { color:#AAFFDD; text-decoration: none; }
+
+.txtBig{ font-size: 24px; font-weight: bold }
+.vspacing { height:10px; margin:0px; padding:0px;}
+.storebadge { width:150px; }
+.container{
+	display: block;
+	height:220px;
+	padding:0px;
+	margin:0px;
+	text-align: center;
+}
+.backImage{
+	display: block;
+	width : 100%;
+	max-height: 220px;
+	min-height:220px;
+	object-fit: cover;
+	position:absolute;
+	z-index: 0;
+	opacity: 0.6;
+}
+.contents{
+	height:100%;
+	position:relative;
+	z-index:1;
+	text-shadow:
+		0px 0px 10px #000000,
+		0px 1px 14px #000000,
+		1px 2px 20px #000000;
+	padding:20px;
+}
+
+
+.header{
+	background-color: #111111;
+	color: #FFFFFF;
+	font-size:20px;
+	text-align: center;
+	padding : 20px 10px 20px 10px;
+}
+
+.center {
+	display:table;
+	margin: 0 auto;
+}
+
+/* dev log list */
+.tSection { display: table; }
+.tRow { display: table-row; }
+.tCol { display: table-cell; }
+
+.tSectionStyle { width:800px; border-bottom:1px dashed #444444; margin-top:20px; }
+.tThumbnail { width:140px; height:90px; vertical-align: top; }
+.tTitle { color:#FFFFFF; font-size:16px; }
+.tSubtitle { color:#999999; }
+.tDate { color:#555555; }
